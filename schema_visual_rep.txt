@@ -1,0 +1,12 @@
++------------+        +--------+        +--------+        +---------+
+|  stations  |        | trips  |        | weather|        |  users  |
++------------+        +--------+        +--------+        +---------+
+| station_id |<----+  | trip_id|        | weather_id |     | user_id |
+| station_name|     | start_station_id|  | date       |     | user_type|
+| station_lat |     | end_station_id  |  | temperature|     | registration_date|
+| station_lon |     | start_time       |  | precipitation|    +---------+
+| location    |     | end_time         |  | wind_speed  |
++------------+     | ride_duration     |  | snowfall    |
+                   | ride_type         |  +-------------+
+                   | user_id (FK)      |
+                   +-------------------+
